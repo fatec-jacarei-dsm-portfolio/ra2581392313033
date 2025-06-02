@@ -1,0 +1,66 @@
+#logo {
+    border-radius: 50%;
+    max-width: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+/* Estilização da lista de navegação */
+#navlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: square;
+    color: #3a8c00;
+}
+
+/* Estilização dos itens da lista */
+#navlist li {
+    margin: 0px 20px;
+}
+
+/* Estilização dos links */
+#navlist li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 100ms ease-in-out; /* Suaviza a transição do efeito */
+}
+
+/* Efeito neon ao passar o mouse */
+#navlist li a:hover {
+    color: #3aff00; 
+    text-shadow: 0 0 5px #3aff00, 0 0 10px #3aff00, 0 0 15px #3aff00;
+}
+
+@media (max-width: 685px){
+
+    /* Quando o espaço total for menor que 600px */
+    header {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #navlist{
+        justify-content: center;
+        margin: 10px;
+    }
+}

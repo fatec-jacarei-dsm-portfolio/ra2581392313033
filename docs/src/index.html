@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Dornelas Portfolio</title>
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="./img/Eu.png" alt="Foto de Perfil" id="logo" />
+      <nav>
+        <ul id="navlist">
+          <li>
+            <a href="#about_session">Sobre</a>
+          </li>
+          <li>
+            <a href="#projects_session">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact_session">Contato</a>
+          </li>
+        </ul>
+        <a
+          class="button"
+          href="https://docs.google.com/document/d/1iHs1XXWpOZ4v9grkUprx2q9rJL69AEwArqoI8XstjDs/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Download CV</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <!-- ABOUT ME SESSION -->
+
+      <section class="session1" id="about_session">
+        <h1>Sobre mim</h1>
+        <div id="aboutme">
+          <img src="./img/Eu2.png" alt="Daniel Dornelas" />
+          <p>
+            Sou um desenvolvedor Full Stack com experiência na criação de
+            aplicações web e APIs escaláveis. Possuo formação em Análise e
+            Desenvolvimento de Sistemas pela FATEC e atuei em projetos freelance
+            e suporte técnico, adquirindo habilidades em desenvolvimento de
+            software e infraestrutura de TI. Minha experiência inclui a criação
+            de interfaces responsivas com React e TypeScript, desenvolvimento de
+            APIs em Node.js, modelagem de bancos de dados (MongoDB e PostgreSQL)
+            e testes automatizados com Jest. Além disso, tenho conhecimento em
+            metodologias ágeis (Scrum e Kanban) e controle de versão com Git e
+            GitHub. Busco sempre aprimorar minhas habilidades e contribuir para
+            soluções inovadoras e eficientes.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS SESSION -->
+      <section class="session2" id="projects_session">
+        <h1>Projetos e habilidades</h1>
+
+        <script src="index.js"></script>
+
+        <div id="project-tabs">
+          <button class="active" data-target="academic">Acadêmicos</button>
+          <button data-target="personal">Pessoais</button>
+        </div>
+
+        <!-- Subsessão: Projetos Acadêmicos -->
+        <ul id="academic" class="project-subsection active">
+          <li>
+            <img
+              src="./img/NutriPerryScreen.JPG"
+              alt="Nutri Perry"
+              class="project_img"
+            />
+            <div class="project_info">
+              <h2>Nutri Perry</h2>
+              <p>
+                Desenvolvi o NutriPerry, um app mobile para monitoramento
+                nutricional e de atividades físicas, utilizando React Native e
+                TypeScript para uma interface intuitiva. Implementei MongoDB
+                para modelagem do banco de dados, Jest para testes automatizados
+                e Git/GitHub para controle de versão. O app permite registrar
+                alimentos, calcular calorias, monitorar exercícios e gerar
+                relatórios de progresso.
+              </p>
+              <a
+                class="button"
+                href="https://github.com/ThePerryDev/NutriPerry"
+                target="_blank"
+                >Ver projeto no Github</a
+              >
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/LearnScrumGif.gif" alt="Learn Scrum" />
+            <div class="project_info">
+              <h2>Site Institucional</h2>
+              <p>
+                Desenvolvi um site institucional para treinamento e padronização
+                da metodologia ágil e seus artefatos, criando interfaces
+                modernas e responsivas com HTML, CSS, Bootstrap e JavaScript. O
+                design do projeto foi criado com Figma. Além disso, utilizei
+                Git/GitHub para controle de versão.
+              </p>
+              <a
+                class="button"
+                href="https://github.com/ThePerryDev/docs"
+                target="_blank"
+                >Ver projeto no Github</a
+              >
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/VisionaDashBoard.png" alt="Visiona" />
+            <div class="project_info">
+              <h2>Visiona DashBoard</h2>
+              <p>
+                Desenvolvi um sistema de gestão de funcionários, criando
+                interfaces responsivas com HTML, CSS, TypeScript e React para
+                uma experiência intuitiva. Implementei APIs com Node.js,
+                integradas a um banco de dados MongoDB. Além disso, utilizei
+                Jest para testes automatizados e gerenciei o controle de versão
+                com Git/GitHub.
+              </p>
+              <a
+                class="button"
+                href="https://github.com/ThePerryDev/visiona-documentation"
+                target="_blank"
+                >Ver projeto no Github</a
+              >
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/BikepassGif.gif" alt="BikePass" />
+            <div class="project_info">
+              <h2>Bike Pass</h2>
+              <p>
+                Desenvolvi uma aplicação para aluguel de bicicletas, criando
+                interfaces dinâmicas e responsivas com HTML, CSS, JavaScript e
+                React. Implementei APIs com Node.js e modelei o banco de dados
+                relacional em PostgreSQL, garantindo eficiência na gestão de
+                reservas e usuários. Além disso, utilizei Git/GitHub para
+                controle de versão.
+              </p>
+              <a
+                class="button"
+                href="https://github.com/ThePerryDev/bikepass-documentation"
+                target="_blank"
+                >Ver projeto no Github</a
+              >
+            </div>
+          </li>
+        </ul>
+
+        <!-- Subsessão: Projetos Acadêmicos -->
+        <ul id="personal" class="project-subsection">
+          <li>
+            <img src="./img/Eu.png" alt="Meu portfólio" />
+            <div class="project_info">
+              <h2>Meu Portfólio</h2>
+              <p>Esse é o meu portfólio, bem-vindo!</p>
+              <a
+                class="button"
+                href="https://dani-dornas.github.io/Portfolio_Daniel_Dornelas/"
+                target="_blank"
+                >Ver projeto no Github</a
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- CONTACT SESSION -->
+      <section class="session1" id="contact_session">
+        <h1>Contato</h1>
+        <form action="" id="contactform">
+          <input type="text" placeholder="Nome" />
+          <input type="text" placeholder="Email" />
+          <textarea placeholder="Mensagem"></textarea>
+          <button>Enviar</button>
+        </form>
+        <ul id="socialmedia">
+          <li>
+            <a target="_blank" href="mailto:daniel.dev.dornelas@gmail.com"
+              ><img src="./img/email.png" alt="email"
+            /></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://wa.me/5512991271329"
+              ><img src="./img/whatsapp.png" alt="whatsapp"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/danieldornelas-dds/"
+              ><img src="./img/logotipo-do-linkedin.png" alt="linkedin"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

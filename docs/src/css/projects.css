@@ -1,0 +1,130 @@
+/* Navegação das subdivisões */
+#project-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+
+    & button {
+        background-color: transparent;
+        border: 2px solid #3aff00;
+        color: #3aff00;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    & button:hover {
+        background-color: #3aff00;
+        color: black;
+    }
+
+    & button.active {
+        background-color: #3aff00;
+        color: black;
+    }
+
+}
+
+/* Estilo das subseções */
+.project-subsection {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+
+    &.project-subsection.active {
+        display: block;
+    }
+
+    & ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        gap: 70px;
+    }
+
+    & li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        padding: 15px;
+        transition: box-shadow 200ms linear, transform 100ms linear;
+
+        &:hover {
+            transform: scale(1.1);
+            border: 3px solid #3aff00;
+            box-shadow: 0 0 8px #3aff00, 0 0 20px #3aff00, 0 0 30px #3aff00;
+        }
+    }
+
+    & p {
+        color: white;
+        text-align: justify;
+    }
+
+    & img {
+        width: 450px;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    & .project_info {
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 15px;
+
+        & .button {
+            margin-top: 30px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .project-subsection img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 980px) {
+    .project-subsection img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-subsection img {
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-subsection img {
+        width: 90%;
+        max-width: 250px;
+    }
+}
+
+/* Animação opcional */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

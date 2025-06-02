@@ -1,0 +1,44 @@
+#aboutme {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#aboutme img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    flex-shrink: 0;    /* Impede a imagem de reduzir muito */
+}
+
+.session1 p {
+    flex: 1;
+    min-width: 400px;
+    /* Mínimo necessário antes de quebrar para baixo */
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+
+    /* Quando o espaço total for menor que 600px */
+    #aboutme {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .session1 p {
+        min-width: auto;
+    }
+
+    #aboutme img {
+        max-width: 150px;
+    }
+}

@@ -1,0 +1,167 @@
+/* RESET CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+header {
+  background-color: #3F0042;
+  padding: 0vw 3vw;
+  border-bottom: 2px solid white;
+}
+
+img {
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+li::before {
+  content: "\200B";
+}
+
+.session1 {
+  background-color: #88008F;
+  padding: 2vw 20vw;
+
+  & p {
+    color: white;
+  }
+}
+
+.session2 {
+  background-color: #3F0042;
+  padding: 2vw 20vw;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+
+  & body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    & main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+
+      & section {
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+/* Barra de rolagem */
+
+/* Estiliza a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #3F0042; /* Cor do fundo da barra */
+}
+
+/* Cor da "pegada" da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #3aff00; /* Cor com efeito gradiente */
+  border-radius: 10px; /* Cantos arredondados */
+}
+
+/* Efeito ao passar o mouse na barra de rolagem */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff00 /* Muda a cor ao passar o mouse */
+}
