@@ -1,6 +1,6 @@
 # Portfólio | Daniel Dornelas 👨‍💻
 
-Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. Aqui você encontrará uma apresentação dos meus principais projetos, minhas habilidades como desenvolvedor Full Stack e informações de contato profissional.
+Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. Aqui você encontra uma apresentação dos meus principais projetos — acadêmicos e pessoais — minhas habilidades como desenvolvedor Full Stack e meus meios de contato.
 
 🔗 [Acesse meu portfólio online](https://dani-dornas.github.io/Portfolio_Daniel_Dornelas/)
 
@@ -8,7 +8,17 @@ Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvid
 
 ## ✨ Sobre
 
-Sou desenvolvedor Full Stack com experiência no desenvolvimento de aplicações web, APIs e interfaces responsivas. Tenho formação em Análise e Desenvolvimento de Sistemas pela FATEC Jacareí e atuei em projetos diversos, combinando backend e frontend com foco em performance e usabilidade.
+Sou um desenvolvedor Full Stack com experiência na criação de aplicações web, APIs escaláveis e interfaces responsivas. Tenho formação em Análise e Desenvolvimento de Sistemas pela FATEC Jacareí e atuei em projetos freelance, acadêmicos e em suporte técnico, unificando conhecimentos em desenvolvimento e infraestrutura.
+
+Minhas principais competências incluem:
+
+- Desenvolvimento de interfaces com React, JavaScript, TypeScript e React Native.
+- Criação de APIs com Node.js e Express.
+- Banco de dados MongoDB e PostgreSQL.
+- Testes automatizados com Jest.
+- Metodologias ágeis (Scrum, Kanban) e versionamento com Git/GitHub.
+- Integração com serviços, autenticação JWT e arquitetura REST.
+- Busco sempre evoluir tecnicamente e criar soluções eficientes, intuitivas e de impacto real.
 
 ---
 
@@ -22,6 +32,12 @@ Sou desenvolvedor Full Stack com experiência no desenvolvimento de aplicações
 ---
 
 ## 💼 Projetos em Destaque
+
+- **[MindCare](https://github.com/ThePerryDev/MindCare)**  
+  Aplicativo mobile com inteligência artificial para identificação de emoções via chatbot, gerando trilhas personalizadas de atividades e suporte emocional (inclusive via CVV).
+  
+- **[Hyperion](https://github.com/ThePerryDev/Hyperion)**  
+  Sistema web criado para a Visiona Espacial, capaz de analisar tiles de imagens dos satélites CBERS e Amazônia 1 para monitoramento de cicatrizes de queimadas.
 
 - **[NutriPerry](https://github.com/ThePerryDev/NutriPerry)**  
   App para monitoramento nutricional e de atividades físicas.
@@ -42,12 +58,12 @@ Sou desenvolvedor Full Stack com experiência no desenvolvimento de aplicações
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5 & CSS3
-- JavaScript
-- React (em alguns projetos)
-- Node.js (em alguns projetos)
-- MongoDB & PostgreSQL
-- Git & GitHub
+- **Frontend:** HTML5, CSS3, JavaScript, React, TypeScript, React Native
+- **Backend:** Node.js, Express, Autenticação JWT
+- **Banco de Dados:** MongoDB, PostgreSQL
+- **Testes:** Jest
+- **Ferramentas:** Git, GitHub, Figma
+- **Metodologias:** Scrum, Kanban
 
 ---
 
